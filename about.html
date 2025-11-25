@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Shah Rahman, IS117-007, Fall 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Shah Rahman</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shah Rahman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="projects.html" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                            <li><a class="dropdown-item" href="projects.html#ml-projects">ML Projects</a></li>
+                            <li><a class="dropdown-item" href="projects.html#web-projects">Web Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about page-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <p class="lead">
+                        I'm a Computer Science student at NJIT with a love for creating meaningful digital experiences. 
+                        I enjoy working across the stack, from building clean UIs to writing efficient backend logic.
+                    </p>
+                    <p>
+                        Recently, I've built an NFL Fantasy Football assistant that uses AI and a custom machine learning model to help users make informed football decisions.
+                        I'm always looking to improve my skills in machine learning and backend development.
+                    </p>
+                    
+                    <!-- Stats as Bootstrap Cards -->
+                    <div class="row mt-4">
+                        <div class="col-md-4 mb-3">
+                            <div class="card stat-card text-center h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title stat-number">2+</h3>
+                                    <p class="card-text">Years Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card stat-card text-center h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title stat-number">5+</h3>
+                                    <p class="card-text">Projects Completed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card stat-card text-center h-100">
+                                <div class="card-body">
+                                    <h3 class="card-title stat-number">30+</h3>
+                                    <p class="card-text">Technologies Mastered</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="about-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 Shah Rahman. All rights reserved.</p>
+            <p class="mb-2">
+                <a href="#" class="footer-link">Privacy Policy</a> | 
+                <a href="#" class="footer-link">Terms of Use</a> | 
+                <a href="contact.html" class="footer-link">Contact</a>
+            </p>
+            <p class="mb-0">:D</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

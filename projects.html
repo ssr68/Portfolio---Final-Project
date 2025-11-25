@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Shah Rahman, IS117-007, Fall 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Shah Rahman</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shah Rahman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="projects.html" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                            <li><a class="dropdown-item" href="projects.html#ml-projects">ML Projects</a></li>
+                            <li><a class="dropdown-item" href="projects.html#web-projects">Web Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects page-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Featured Projects</h2>
+            
+            <!-- ML Projects -->
+            <h3 id="ml-projects" class="category-subtitle mb-4"><i class="fas fa-brain me-2"></i>Machine Learning Projects</h3>
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-img-top project-image">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fantasy Projections Engine</h5>
+                            <p class="card-text">
+                                A machine learning model written in Python using scikit-learn and NumPy to forecast NFL fantasy football performance based on 5+ years of data from over 600 players.
+                            </p>
+                            <div class="project-tech">
+                                <span class="badge tech-tag">Python</span>
+                                <span class="badge tech-tag">Scikit-learn</span>
+                                <span class="badge tech-tag">NumPy</span>
+                                <span class="badge tech-tag">Pandas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-img-top project-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">NASA Hunch</h5>
+                            <p class="card-text">
+                                Designed and built a prototype for a zero-gravity duster arm as part of a team of 20+ to be used in the International Space Station. Created a script with ROBOTC, creating a feasible motion path for the duster arm to meet NASA design requirements.
+                            </p>
+                            <div class="project-tech">
+                                <span class="badge tech-tag">ROBOTC</span>
+                                <span class="badge tech-tag">G-code</span>
+                                <span class="badge tech-tag">AutoCAD</span>
+                                <span class="badge tech-tag">SolidWorks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Web Projects -->
+            <h3 id="web-projects" class="category-subtitle mb-4"><i class="fas fa-globe me-2"></i>Web Development Projects</h3>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-img-top project-image">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Fantasy Football Advisor</h5>
+                            <p class="card-text">
+                                A full-stack chatbot powered by OpenAI's GPT-4o model that uses the RAG (Retrieval-Augmented Generation) technique to answer user inquiries about NFL fantasy football.
+                            </p>
+                            <div class="project-tech">
+                                <span class="badge tech-tag">HTML</span>
+                                <span class="badge tech-tag">CSS</span>
+                                <span class="badge tech-tag">JavaScript</span>
+                                <span class="badge tech-tag">OpenAI</span>
+                                <span class="badge tech-tag">LangChain</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 Shah Rahman. All rights reserved.</p>
+            <p class="mb-2">
+                <a href="#" class="footer-link">Privacy Policy</a> | 
+                <a href="#" class="footer-link">Terms of Use</a> | 
+                <a href="contact.html" class="footer-link">Contact</a>
+            </p>
+            <p class="mb-0">:D</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

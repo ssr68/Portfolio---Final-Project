@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Shah Rahman, IS117-007, Fall 2025 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Shah Rahman</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shah Rahman</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="projects.html" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                            <li><a class="dropdown-item" href="projects.html#ml-projects">ML Projects</a></li>
+                            <li><a class="dropdown-item" href="projects.html#web-projects">Web Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="experience.html">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience page-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Work Experience</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card experience-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div>
+                                    <h5 class="card-title job-title">Software Engineer Intern</h5>
+                                    <h6 class="company-name">Innovative Global Holdings LLC</h6>
+                                </div>
+                                <span class="badge duration-badge">Mar 2025 - Aug 2025</span>
+                            </div>
+                            <p class="card-text text-muted">
+                                Built and designed automation scripts to streamline company operations.
+                            </p>
+                            <ul class="job-achievements">
+                                <li>Designed and documented a Google-Cloud-based automation system using Sheets, Drive, and Gmail APIs to streamline lead management.</li>
+                                <li>Engineered a deep research agent with n8n and JavaScript that performs comprehensive legal research from user input, supporting complex case analysis and enhancing due diligence.</li>
+                                <li>Developed an LLM rerouter using n8n, JavaScript, and the OpenRouter API to dynamically select and route prompts to the most suitable AI model, optimizing legal research and document analysis.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                    <div class="card experience-card h-100">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div>
+                                    <h5 class="card-title job-title">Software Engineer Intern</h5>
+                                    <h6 class="company-name">Arkra</h6>
+                                </div>
+                                <span class="badge duration-badge">Sep 2025 - Present</span>
+                            </div>
+                            <p class="card-text text-muted">
+                                AI Team
+                            </p>
+                            <ul class="job-achievements">
+                                <li>Engineered a web scraper pipeline using Python, Requests, and Pandas to extract and structure lender data, capturing loan products, requirements, rates, and financial metrics for streamlined MQL to SQL qualification.</li>
+                                <li>Automated classification and filtering of lenders, implemented Selenium fallbacks for anti-bot protections, and delivered structured CSV output for the sales team.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2025 Shah Rahman. All rights reserved.</p>
+            <p class="mb-2">
+                <a href="#" class="footer-link">Privacy Policy</a> | 
+                <a href="#" class="footer-link">Terms of Use</a> | 
+                <a href="contact.html" class="footer-link">Contact</a>
+            </p>
+            <p class="mb-0">:D</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
